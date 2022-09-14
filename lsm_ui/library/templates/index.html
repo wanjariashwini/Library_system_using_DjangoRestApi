@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Library</title>
+</head>
+<body>
+    <section class="banner-section">
+        <div class="banner-content-1">
+            <div class="banner-text-1">
+                <h1>Welcome</h1>
+                <h2><i>to Online Library</i></h2>
+            </div>
+            <div class="banner-text-2">
+                <img src="{% static 'images/books.png' %}>
+            </div>
+        </div>
+        <div class="banner-content-2">
+            <div class="banner-col banner-col-1">
+                <a href="admin_login/"><img src="{% static 'images/admin-icon.png' %}></a>
+                <a href="admin_login/">Admin</a>
+            </div>
+            <div class="banner-col banner-col-2">
+                <a href="user_login/"><img src="{% static 'images/users-icon.png' %}></a>
+                <a href="user_login/">Users</a>
+            </div>
+        </div>
+    </section>
+</body> 
+</html>

@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.banner-section{
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+}
+.banner-content-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 10rem;
+    align-items: center;
+}
+.banner-text-1 h1 {
+    font-size: 100px;
+    font-family: system-ui;
+    color: white;
+}  
+.banner-text-1 h2 {
+    color: white;
+    font-size: 55px;
+    font-family: system-ui;
+} 
+.banner-text-2{
+    text-align: right;
+}
+.banner-text-2 img {
+    height: 22rem;
+}
+.banner-content-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 18rem 5rem;
+    align-items: center;
+}
+.banner-col{
+    text-align: center;
+}
+.banner-col a img {
+    background: #fff;
+    padding: 15px;
+    border-radius: 80px;
+    height: 90px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 5px;
+}
+.banner-col a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/***************************************************/
+
+.admin-back{
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:29rem;
+    width: 100%;
+    padding-top: 10rem;
+}
+.admin-content {
+    background: #fff;
+    width: 20rem;
+    margin: 0 auto;
+    padding: 0px 35px;
+}
+.admin-content h1 {
+    padding: 35px 0px 25px;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.admin-content label {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.admin-content form input {
+    width: 90%;
+    height: 30px;
+    padding: 0px 10px;
+    font-size: 16px;
+    margin: 5px 0px 20px;
+}
+.admin-form-btn{
+    text-align: center;
+}
+.admin-content form button {
+    padding: 4px 38px;
+    font-size: 16px;
+    margin: 25px 2px 30px;
+    background: #ff6414;
+    border: 1px solid #cb3729;
+    color: white;
+    cursor: pointer;
+}
+.admin-content form button:hover{
+    transition: 0.5s;
+    background: #cb3729;
+}
+/*************************************************/
+
+.admin-tabs-section{
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+}
+
+.b-tab {
+  display: none;
+}
+
+.b-tab.active {
+  display: block;
+}
+
+.b-nav-tab {
+  display: inline-block;
+  padding: 10px;
+}
+.admin-tab-nav-bar a {
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+}
+.admin-tab-nav-bar a:hover{
+    background: #f16418;
+    transition: 0.5s;
+    color: #fff;
+}
+.logOutBtn a {
+    background: #e04923;
+    padding: 7px 10px;
+    border-radius: 20px;
+    color: #fff;
+}
+.b-nav-tab.active {
+    color: #fff;
+    background: #f16418;
+}
+.admin-tab-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    margin-bottom: 60px;
+}
+div#addbook h2 {
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-bottom: 15px;
+}
+div#addbook {
+    background: #fff;
+    width: 25rem;
+    margin: 0px auto;
+    padding: 25px 50px;
+}
+div#addbook label {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+div#addbook input {
+    width: 95%;
+    height: 25px;
+    padding: 0px 8px;
+    margin: 5px 0px 15px;
+}
+.addBookBtn {
+    text-align: center;
+}
+.addBookBtn button {
+    padding: 4px 38px;
+    font-size: 16px;
+    margin: 15px 2px 5px;
+    background: #ff6414;
+    border: 1px solid #cb3729;
+    color: white;
+    cursor: pointer;
+}
+.addBookBtn button:hover{
+    transition: 0.5s;
+    background: #cb3729;
+}
+/*************/
+table, td, th {  
+  border: 1px solid #000;
+  text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+th, td {
+  padding:8px;
+}
+div#getallbook {
+    padding: 0px 15rem;
+}
+th {
+    background: #fff;
+    color: #000;
+}
+td {
+    background: #fff;
+    color: #000;
+}
+/***************/
+div#getbook {
+    width: 20rem;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+}
+div#getbook input {
+    width: 93%;
+    height: 25px;
+    padding: 0px 8px;
+    margin: 5px 0px 15px;
+}
+div#getbook label {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.getBookBtn{
+    text-align: center;
+}
+.getBookBtn button {
+    padding: 4px 38px;
+    font-size: 16px;
+    margin: 15px 2px 5px;
+    background: #ff6414;
+    border: 1px solid #cb3729;
+    color: white;
+    cursor: pointer;
+}
+.getBookBtn button:hover{
+    transition: 0.5s;
+    background: #cb3729;
+}
+div#updatebook h2 {
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-bottom: 15px;
+}
+div#updatebook {
+    background: #fff;
+    width: 25rem;
+    margin: 0px auto;
+    padding: 25px 50px;
+}
+div#updatebook label {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+div#updatebook input {
+    width: 95%;
+    height: 25px;
+    padding: 0px 8px;
+    margin: 5px 0px 15px;
+}
+.updatebookBtn {
+    text-align: center;
+}
+.updatebookBtn button {
+    padding: 4px 38px;
+    font-size: 16px;
+    margin: 15px 2px 5px;
+    background: #ff6414;
+    border: 1px solid #cb3729;
+    color: white;
+    cursor: pointer;
+}
+.updatebookBtn button:hover{
+    transition: 0.5s;
+    background: #cb3729;
+}
+
+div#deletebook {
+    width: 20rem;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+}
+div#deletebook input {
+    width: 93%;
+    height: 25px;
+    padding: 0px 8px;
+    margin: 5px 0px 15px;
+}
+div#deletebook label {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.deletebookBtn{
+    text-align: center;
+}
+.deletebookBtn button {
+    padding: 4px 38px;
+    font-size: 16px;
+    margin: 15px 2px 5px;
+    background: #ff6414;
+    border: 1px solid #cb3729;
+    color: white;
+    cursor: pointer;
+}
+.deletebookBtn button:hover{
+    transition: 0.5s;
+    background: #cb3729;
+}
